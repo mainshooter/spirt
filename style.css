@@ -1,0 +1,20 @@
+.mario-kart-character {
+  background-image: url(sprite-world-of-warcraft.png);
+  width: 7em;
+  height: 10em;
+  display: block;
+  background-repeat: no-repeat;
+  float: right;
+  margin: 0 2em;
+}
+.baby-mario {
+  background-position: -12em -1em;
+}
+.daisy {
+  background-position: -12em -12em;
+}
+.bowser {
+  background-position: -6em -22em;
+  width: 18em;
+  height: 12em;
+}
