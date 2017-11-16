@@ -16,7 +16,15 @@
     }
 
     public function getHTML() {
-      return("<span class='$this->gameName $this->character'></span>");
+      return("<span class='{$this->gameName} {$this->character}'></span>");
+    }
+
+    /**
+     * To convert the obj to a string if there is a echo
+     * @return string [description]
+     */
+    public function __toString() {
+      return("<span class='{$this->gameName} {$this->character}'></span>");
     }
   }
 
