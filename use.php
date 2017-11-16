@@ -10,10 +10,10 @@
 
       <?php
         require_once 'Snippit.class.php';
-        $Mario = new Snippit('mario-kart-character');
-        $Mario->setCharacter('daisy');
+        $Snippit = new Snippit('mario-kart-character');
+        $Snippit->setCharacter('daisy');
 
-        echo $Mario->getHTML();
+        echo $Snippit->getHTML();
 
       ?>
 
